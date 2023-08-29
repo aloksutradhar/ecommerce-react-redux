@@ -1,0 +1,63 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.card {
+  width: 200px;
+  height: 350px;
+  padding: 10px;
+  background: #ececec;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+}
+.card img {
+  width: 200px;
+  height: 250px;
+}
+.link {
+  text-decoration: none;
+  color: #000;
+}
+.title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.productDetails {
+  display: flex;
+}
+.productImage img {
+  width: 300px;
+  height: 500px;
+}
+
+.cartDetails {
+  display: flex;
+  width: 400px;
+}
+.cartProductImage img {
+  width: 100px;
+}
+.quantity {
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.emptyCart {
+  width: 10rem;
+}
